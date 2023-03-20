@@ -1,0 +1,119 @@
+.main_div{
+justify-content: center;
+align-items: center;
+display: flex;  
+flex-direction: column; 
+background-color: rgb(135, 135, 228);
+width: 100%;
+height: 100vh;
+margin: 0px;
+padding-bottom: 10px;
+}
+
+.inner_div{
+    background-color: white;
+    width: 25%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center;
+    text-align: center; */
+    border-radius: 5px;
+    padding-bottom: 10px;
+    box-shadow: rgba(49, 48, 48, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.inner_div h1 {
+    background-color: blueviolet;
+    color: white;
+    text-align: center;
+    align-items: center;
+    font-size: 2rem;
+    width: 99%;
+    font-weight: bold;
+    padding: 5px 5px 0px 0px;
+}
+
+.content_div{
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+}
+
+.content_div input{
+    text-align: center;
+    background-color: transparent;
+    border: 0px solid;
+    align-items: center;
+    display: block;
+   color: gray;
+   width: 70%;
+   font-weight: lighter;
+   font-size: larger;
+   border-bottom: 3px groove blueviolet;
+
+}
+
+.content_div button{
+    color: white;
+    background-color: blueviolet;
+    border-radius: 50%;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    border-style: none;
+
+
+}
+
+input:focus{
+    outline: none;
+}
+
+.content_div button:hover{
+    background-color: green;
+}
+
+.show_div{
+    justify-content: left;
+    text-align: center;
+    font-weight: lighter;
+    padding-left: 10%;
+    color: gray;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 10px;
+    font-size: 1.3rem;
+  
+}
+
+.show_div button{   
+    color: white;
+    background-color: blueviolet;
+    border-radius: 50%;
+    font-weight: bolder; 
+    height: 100%;
+    font-size: 1rem;
+    margin-right: 5%;
+    text-align: center;
+    border-style: none;
+
+}
+
+.show_div button:hover{ 
+    background-color: red;  
+}
+
+@media only screen and (max-width: 800px) {
+    .inner_div{
+        width: 50%;
+    }
+  }
+
+  @media only screen and (max-width: 450px) {
+    .inner_div{
+        width: 80%;
+    }
+   
+  }

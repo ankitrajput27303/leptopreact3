@@ -1,0 +1,102 @@
+.main_content{
+    text-align: center;
+    justify-content: center;
+    width: 100%;
+    font-family: system-ui;
+    background-color: whitesmoke;
+}
+.main_content h1{
+    font-weight: lighter;
+    font-size: 2.5rem;
+}
+.table_style{
+    font-family: system-ui;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    width: 80%;
+    padding: 5px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
+}
+
+.table_style thead {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: block;
+    align-items: center;
+    align-content: space-evenly;
+    text-align: left; 
+}
+
+.table_style th {
+    padding: 10px; 
+    width: 9%;
+    text-align: left;
+}
+.table_style tbody{
+    height: 400px;
+    overflow: scroll;
+    display: block;
+    width: 100%;
+    text-align: left;
+    align-items: center;
+    align-content: space-evenly;
+}
+
+.table_style td {
+    width: 10%;
+    align-content: space-evenly;
+    justify-content: center;
+    text-align:left;
+}
+
+.table_style tr{  
+    text-align: left;
+}
+
+/* .table_style tr:hover,td:hover  {
+    background-color: lightgrey;
+} */
+
+.table_style table{
+    border-style:none;
+    width: 100%;
+}
+
+td:hover ::after,
+th:hover ::after{
+    content: "";
+    position: absolute;
+    background-color: #f2f2f2;
+    left: 0;
+    top: -5000px;
+    width: 100%;
+    z-index: -1;
+}
+
+.table tr td:nth-child(4){
+    background-color: rgb(231, 83, 115);
+    color: aliceblue;
+    border: 0.px solid rgb(12, 12, 12);
+}
+
+table tr td:hover {
+    background-color: rgb(117, 223, 122);
+    color: aliceblue;
+    border: 0.px solid rgb(12, 12, 12);
+}
+
+@media only screen and (max-width: 700px) {
+    .table_style{
+        width: 100%;
+        font-size: 0.5rem;
+    }
+    .main_content h1{
+        
+        font-size: 1rem;
+    }
+  
+  }

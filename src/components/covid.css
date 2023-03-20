@@ -1,0 +1,148 @@
+.menu_cart{
+    color: white;
+    width: 100%;
+    font-family: Arial Narrow Bold;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    
+}
+
+.main_cart{
+    background-color: blueviolet;
+    width: 25%;
+    height: 15rem;
+    margin : 1.5rem;
+    font-size: 2rem;
+    border: inset;
+    border-radius: 10px;
+    
+}
+
+.font_style{
+    font-size: 1.5rem;
+}
+
+.head_cart{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.main_cart :hover{
+
+    background-color: brown;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+.hover_style:hover{
+    font-size: 1.5rem;
+}
+
+
+
+
+@media only screen and (max-width: 110px) {
+
+    .font_style{
+        font-size: 0.8rem;
+    }
+   .text_style{
+    font-size: 1.5rem;
+   }
+  }
+
+  @media only screen and (max-width: 950px) {
+
+    .font_style{
+        font-size: 0.6rem;
+    }
+   .text_style{
+    font-size: 1.2rem;
+   }
+  }
+
+  @media only screen and (max-width: 740px) {
+
+    .font_style{
+        font-size: 0.4rem;
+    }
+   .text_style{
+    font-size: 1rem;
+   }
+  }
+
+  @media only screen and (max-width: 630px) {
+
+    .font_style{
+        font-size: 0.4rem;
+    }
+   .text_style{
+    font-size: 0.8rem;
+   }
+  }
+
+  @media only screen and (max-width: 500px) {
+
+    .font_style{
+        font-size: 0.2rem;
+    }
+   .text_style{
+    font-size: 0.6rem;
+   }
+  }
+
+
+
+/* .main_cart {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    font-family: Arial Narrow Bold;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.middleCart{
+    display:block;
+    background-color: blueviolet;
+    height: auto;
+    width: auto;
+    padding: 10px;
+    text-shadow: 20px;   
+    margin: 10px;
+    
+}
+
+.kuchhBhi{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    align-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.show_cart{
+    box-sizing: border-box;
+    height: 100%;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    align-content: space-around;
+    flex-shrink: 1;
+}
+ */

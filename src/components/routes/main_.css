@@ -1,0 +1,28 @@
+.navStyle{
+    background-color: rgb(21, 30, 37);
+    color: white;
+    font-size: 2rem;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.linkStyle{
+    width: 33.3%;
+    align-content: space-evenly;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    padding:1%;
+    border-radius: 5px;
+}
+
+.linkStyle:hover {
+    background-color: rgb(219, 101, 101);
+    color: rgb(21, 30, 37);
+
+}
